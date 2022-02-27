@@ -32,5 +32,10 @@ MP can see all appointments booked at any time
 
 
 ## Introduction
-This program can be devided into two parts, the first part is the Human-Computer Interface, it contains all element that are visionable to users. To be specific,
-![Administrator System (2)](https://user-images.githubusercontent.com/78243340/153801472-8fb868b7-0cda-4c50-a2a5-cf8c332a00c7.jpg)
+This program can be devided into two parts, the first part is the Human-Computer Interface, it contains all element that are visionable to users. To be specific, it contains all the html pages that support log in, make appointment, check diagnose result and other operations.
+
+The second part of this system is the Service Interface, it generates the service end and all database related parts such as mysql or mongoDB.
+
+## The Service Interface
+![Administrator System (2)](https://user-images.githubusercontent.com/78243340/153801472-8fb868b7-0cda-4c50-a2a5-cf8c332a00c7.jpg)  
+This picture shows the structure of my service interface.
