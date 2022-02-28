@@ -39,3 +39,36 @@ The second part of this system is the Service Interface, it generates the servic
 ## The Service Interface
 ![Administrator System (2)](https://user-images.githubusercontent.com/78243340/153801472-8fb868b7-0cda-4c50-a2a5-cf8c332a00c7.jpg)  
 This picture shows the structure of my service interface.
+### People
+Relation People is an outer database containing information of citizens, it can be realized by getting legally access to the database of government.  
+This database contains ID, name and gender of a citizen. Where ID is the  major key.
+### Patient
+Relation Patient contains the information of patients, it is a private database maintained by hospital. Everyone who wants to make an appointment should create a patient account with his or her name, age, gender and ID. Each patient is assigned a PID as majot key.
+### Staff
+Relation Staff contains the information of staffs, it is a private database maintained by hospital. Each staff of hospital should have a staff account with his or her name, age, gender, ID,Birth, address and phone number. Each staff has a unique SID. Staff's account also specifies his or her duty and sector.
+### Sector
+This relation contains the information of sectors in hospital.
+### Duty
+This relation contains duty of a staff.
+### Appointment
+Every account in Patient database can make appointment, appointments are saved in Appointment database. The database specifies the date of appointment as well as the information of a patient. The major key of this database is AID.
+### Appointment Type
+To make the system more flexible, my system surpport a Appointment Type database. It specifies the type of each appointment.Each operation in Appointment database will result in changes in Appointment Type.
+### Appointment Calendar
+This database shows the number of appointment avaliable for a specific type everyday, the major key of this database is Date and AType. The system will first check if an specific appointment is availiable before adding it into the Appointment database. Each operation in Appointment database will result in changes in Appointment Calendar.
+### Diagnose
+Appointment will be processed and it result is saved in Diagnose database, this database contains diagnoses from doctors and may lead to Physical Examination. The major key of this database is DID.
+### Physical Examination
+Appointments for Physical Examination are saved in Physical Examination database, it specifies the type and date of examination. Before an Appointment is made, system should check Equipment relation to see if specific machine is avaliable.
+### Medical Equipment Management
+This database assign equipment for each examination, it connect the Physical Examination database and Equipment database.
+### Equipment
+This database shows the avaliability of equipments.
+### Blood Pressure
+This database contains the result of Blood Pressure test.
+### Pulse
+This database contains the result of Pulse test.
+### Glucometer
+This database contains the result of Glucometer test.
+### Thermometer
+This database contains the result of Thermometer test.
