@@ -85,6 +85,10 @@ To process request and make response. We should at first design a protocol for r
 * 001: chat request
 * 010: logout request
 
+Besides this, we need one bit status number to show whether this user has been successfully login if so, the number is set to 1 else the number is 0.
+
+We also need to design the content of response and request code. When we request for login, the content of our code should be user's socket number and his or her ID and pass word. If we request for sending message, the content of our code should be the message we want to send.   
+
 
 The Server part shall also be connected to a database. We use the database to save ID and Password of all login users. In this case, when we process a login request, what we do is we check if we can find this user in the database.
 
@@ -127,4 +131,12 @@ This database contains the result of Pulse test.
 This database contains the result of Glucometer test.
 ### Thermometer
 This database contains the result of Thermometer test.
+
+### Overview 
+To get started, I first build a database to save all users. Also build html page to surpport login and regist.
+![one](https://user-images.githubusercontent.com/78243340/158317731-45bda412-d1b6-4b5b-8ead-86ae905a90e6.JPG)
+![two](https://user-images.githubusercontent.com/78243340/158317750-6f12c3df-432d-4db3-9039-66a1ac299416.JPG)
+![three](https://user-images.githubusercontent.com/78243340/158317756-cfe8e543-c3a3-4a22-9614-a3f92bfb3ec0.JPG)
+![four](https://user-images.githubusercontent.com/78243340/158317769-49a4aa84-4dbf-4988-bd17-5563effa806c.JPG)
+![five](https://user-images.githubusercontent.com/78243340/158317782-006adecc-9af2-46b3-86ab-3b0447ae1ab5.JPG)
 
