@@ -1,4 +1,9 @@
 # EC530-PROJECT2
+## Hospital Chatroom User Stories
+Add users to the system:  
+Users who have registed in the system can chat in a chat room    
+Each user can login, logout
+all the message sent by other online users will be shown on each users' screeen
 ## Administrator User Stories
 Add users to the system:  
 Users should be added to the system and cannot register before being added to the system    
@@ -72,3 +77,4 @@ This database contains the result of Pulse test.
 This database contains the result of Glucometer test.
 ### Thermometer
 This database contains the result of Thermometer test.
+
