@@ -41,6 +41,56 @@ This program can be devided into two parts, the first part is the Human-Computer
 
 The second part of this system is the Service Interface, it generates the service end and all database related parts such as mysql or mongoDB.
 
+### The Chatroom Interface
+In this project, we build a p2p chat program writtern in python. This program uses a C/S (client/server side) mode, which includes two parts: the server and client program. The client sends the message to the server, which forwards the chat message to other online users.
+
+### Module Environment 
+
+* Module Name: Hospital Chatroom
+* Project Mode: C/S
+* Windows 7, python 3, PyCharm 
+* Python GUI, Multithread programming, Network programming, Database programming 
+
+### Overview 
+The program has client side and server side. The client side is operated by GUI, while the server side recieving incomming requests from clients wanting to communicate. 
+
+First to start the server program to get link with the client. Then the client launcher will open the login window.
+
+![捕获](https://user-images.githubusercontent.com/70667153/114881111-48fe1b00-9e35-11eb-8494-6ceefed492bc.JPG)
+
+Login Success!
+
+![登陆成功](https://user-images.githubusercontent.com/70667153/114881153-51eeec80-9e35-11eb-917d-82da9556e59b.JPG)
+
+Login Failed
+
+![登陆失败](https://user-images.githubusercontent.com/70667153/114881164-54e9dd00-9e35-11eb-8b8e-9c3aad9a0380.JPG)
+
+After the program login successfully, the user will get into the chat room window.
+
+![上方显示的是nickname 右边的滚动条如果消息很多可以向下滚](https://user-images.githubusercontent.com/70667153/114881179-587d6400-9e35-11eb-9bba-941eb0090253.JPG)
+![自己说的话是me别人说的是昵称](https://user-images.githubusercontent.com/70667153/114881200-5ca98180-9e35-11eb-80d5-ff618ae89593.JPG)
+
+Then, the user can enter the message in the input box and send it to other online users. When multiple people getting online, the message will be sent to all online users at the sametime.
+
+### The Building Strategy of this module
+This chat module is based on a simulation of Socket Connection. To be specific, we make use of Socket api in python and devide our chatroom into two modules, the Client Part and the Server Part.
+
+#### The Server Part
+This part uses multiple threads to process clients' request. There are mainly three kinds of requests: login request, logout request and chat request. Whenever Server recieves a new request from client it start a new thread to process it. In other word, the server itself won't save any information.
+#### The request code and response code
+To process request and make response. We should at first design a protocol for request code and response code. To be specific, we have three kind of requests, so we set the first three number in request code as request type. 
+
+* 000: login request
+* 001: chat request
+* 010: logout request
+
+
+The Server part shall also be connected to a database. We use the database to save ID and Password of all login users. In this case, when we process a login request, what we do is we check if we can find this user in the database.
+
+
+
+### The Structure of Administrator
 ## The Service Interface
 ![Administrator System (2)](https://user-images.githubusercontent.com/78243340/153801472-8fb868b7-0cda-4c50-a2a5-cf8c332a00c7.jpg)  
 This picture shows the structure of my service interface.
