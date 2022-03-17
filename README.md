@@ -205,7 +205,6 @@ It will throw exception if two password are not the same
 Administrator can add or delete doctors, he or she has directly access to doctor database.
 ![adddoc](https://user-images.githubusercontent.com/78243340/158742933-92675024-0ff9-4064-b915-d22043909fe4.JPG)
 ![doc2](https://user-images.githubusercontent.com/78243340/158743191-86431f23-d780-4be3-958d-d9deb61e5d3c.JPG)
-![set2](https://user-images.githubusercontent.com/78243340/158743595-b09628f4-92a9-4256-93c6-11a68eb4dd39.JPG)
 
 ## sector management
 Administrator can add or delete sectors, he or she has directly access to sector database.
@@ -214,6 +213,20 @@ Administrator can add or delete sectors, he or she has directly access to sector
 ## the management of whole system
 Administrator can view the whole system.
 ![whole](https://user-images.githubusercontent.com/78243340/158743506-98307d00-38b3-4e2c-8539-6437215ececd.JPG)
+
+### Regulation of database 
+Administrator table
+![admin](https://user-images.githubusercontent.com/78243340/158744556-ba9f0c3f-1dbc-4e50-b5d7-251d63f83a40.JPG)
+
+Doctor table
+![doctor](https://user-images.githubusercontent.com/78243340/158744992-a7466d3a-6003-4815-87d2-09d25b080bac.JPG)
+
+Patient table
+![patient](https://user-images.githubusercontent.com/78243340/158745048-5cf2bd3c-d25e-4784-adab-459f0c709742.JPG)
+
+Section table
+![section](https://user-images.githubusercontent.com/78243340/158745133-5bd39221-a241-4560-a554-40b9bfc6d0e2.JPG)
+
 
 
 
