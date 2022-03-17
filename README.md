@@ -187,11 +187,34 @@ A doctor can treat his or her patient and is able to call them one by one.
 
 ### Administrator part
 This part alongs administrator to manage the whole system:
+* Administrator are able to login.
+* Administrator are able to regist.
 * Administrator is able to add or delete doctors.
-* Administrator is able to set duty time for each doctor.
+* Administrator is able to set the number of patients each doctor shall treat each day.
 * Administrator is able to add or delete new sectors for the system.
 
+## administrator login
+![adlogin](https://user-images.githubusercontent.com/78243340/158741038-21695bba-e30f-4f69-97b8-3fb37c74cfb1.JPG)
+![for，](https://user-images.githubusercontent.com/78243340/158741120-953172cb-2400-4a89-b4ce-21863df74b62.JPG)
+## administrator regist
+![password](https://user-images.githubusercontent.com/78243340/158742278-b5a6f1bf-ac56-44af-895c-70124d329bd5.JPG)
+It will throw exception if two password are not the same
+![error](https://user-images.githubusercontent.com/78243340/158742421-7c88f98d-e0ba-44f1-a953-bb325ccbecd9.JPG)
+
 ## doctor management
+Administrator can add or delete doctors, he or she has directly access to doctor database.
+![adddoc](https://user-images.githubusercontent.com/78243340/158742933-92675024-0ff9-4064-b915-d22043909fe4.JPG)
+![doc2](https://user-images.githubusercontent.com/78243340/158743191-86431f23-d780-4be3-958d-d9deb61e5d3c.JPG)
+![set2](https://user-images.githubusercontent.com/78243340/158743595-b09628f4-92a9-4256-93c6-11a68eb4dd39.JPG)
+
+## sector management
+Administrator can add or delete sectors, he or she has directly access to sector database.
+![sector](https://user-images.githubusercontent.com/78243340/158743344-92fab23e-1203-4351-8699-68dd9697a25f.JPG)
+
+## the management of whole system
+Administrator can view the whole system.
+![whole](https://user-images.githubusercontent.com/78243340/158743506-98307d00-38b3-4e2c-8539-6437215ececd.JPG)
+
 
 
 
