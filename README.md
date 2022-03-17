@@ -157,7 +157,7 @@ When finish registration, one's information will be add to patient form
 
 ## Make appointment
 A user can make appointment, they can view all the doctors in the system, and how many patient are availiable for each doctor.
-![appointmentform](https://user-images.githubusercontent.com/78243340/158720989-ccdd46bd-9b73-4cd4-901f-a5f08397ae17.JPG)
+![appointmentform](https://user-images.githubusercontent.com/78243340/158733201-9157a1bf-9e4a-41ee-ba02-20b438880a89.JPG)
 Patient can view his or her appointments in appointment date page
 ![appointmentdate](https://user-images.githubusercontent.com/78243340/158723588-95a98666-db72-4500-8d65-1ffe8e3e12f7.JPG)
 
