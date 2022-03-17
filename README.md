@@ -185,7 +185,13 @@ A doctor can view all his or her patients.
 A doctor can treat his or her patient and is able to call them one by one.
 ![call](https://user-images.githubusercontent.com/78243340/158736662-a402ff96-8c38-491f-988b-df0adf297a79.JPG)
 
+### Administrator part
+This part alongs administrator to manage the whole system:
+* Administrator is able to add or delete doctors.
+* Administrator is able to set duty time for each doctor.
+* Administrator is able to add or delete new sectors for the system.
 
+## doctor management
 
 
 
