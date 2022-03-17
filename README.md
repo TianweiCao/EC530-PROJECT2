@@ -136,6 +136,7 @@ This database contains the result of Thermometer test.
 When it comes to the construction of my system, I make some simplications on my design.
 
 The Administrator system can be devided into three parts: the patient part, the doctor part and the administor part.
+
 ### Patient part
 This part deal with the following request: 
 * patients are able to login.
@@ -160,6 +161,31 @@ A user can make appointment, they can view all the doctors in the system, and ho
 ![appointmentform](https://user-images.githubusercontent.com/78243340/158733201-9157a1bf-9e4a-41ee-ba02-20b438880a89.JPG)
 Patient can view his or her appointments in appointment date page
 ![appointmentdate](https://user-images.githubusercontent.com/78243340/158723588-95a98666-db72-4500-8d65-1ffe8e3e12f7.JPG)
+
+### Doctor part
+In this part, a doctor can do the following things:
+* doctors are able to login.
+* doctos are able to regist.
+* doctors are able to see all appointments asigned to them.
+* doctors are able to call next patient for treatment.
+
+## doctor login
+If a doctor has successfuly resgist, his or her information will be saved in database. Then he or she can login to the system.
+![doctorlogin](https://user-images.githubusercontent.com/78243340/158734674-3341dfa1-8343-4edb-8691-9fbd38b02c2c.JPG)
+![databaseform](https://user-images.githubusercontent.com/78243340/158735303-91899158-e423-40ee-adaa-9a06b6681de2.JPG)
+
+## doctor regist
+A user can go to the regist page to regist as a doctor.
+![doctorregist](https://user-images.githubusercontent.com/78243340/158735842-e59c4d84-9f22-4f0b-bc47-bab8954572a8.JPG)
+![regist2](https://user-images.githubusercontent.com/78243340/158735912-e22b2144-5f24-46ca-8dad-9d69cf12a379.JPG)
+
+## doctor duty
+A doctor can view all his or her patients.
+![view](https://user-images.githubusercontent.com/78243340/158736528-da9330c0-0987-4e6f-92d0-2ed0d3f00751.JPG)
+A doctor can treat his or her patient and is able to call them one by one.
+![call](https://user-images.githubusercontent.com/78243340/158736662-a402ff96-8c38-491f-988b-df0adf297a79.JPG)
+
+
 
 
 
