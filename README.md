@@ -94,7 +94,7 @@ The Server part shall also be connected to a database. We use the database to sa
 
 
 
-### The Structure of Administrator
+## The Structure of Administrator
 ## The Service Interface
 ![Administrator System (2)](https://user-images.githubusercontent.com/78243340/153801472-8fb868b7-0cda-4c50-a2a5-cf8c332a00c7.jpg)  
 This picture shows the structure of my service interface.
@@ -132,11 +132,29 @@ This database contains the result of Glucometer test.
 ### Thermometer
 This database contains the result of Thermometer test.
 
-### Overview 
-To get started, I first build a database to save all users. Also build html page to surpport login and regist.
-![one](https://user-images.githubusercontent.com/78243340/158317731-45bda412-d1b6-4b5b-8ead-86ae905a90e6.JPG)
-![two](https://user-images.githubusercontent.com/78243340/158317750-6f12c3df-432d-4db3-9039-66a1ac299416.JPG)
-![three](https://user-images.githubusercontent.com/78243340/158317756-cfe8e543-c3a3-4a22-9614-a3f92bfb3ec0.JPG)
-![four](https://user-images.githubusercontent.com/78243340/158317769-49a4aa84-4dbf-4988-bd17-5563effa806c.JPG)
-![five](https://user-images.githubusercontent.com/78243340/158317782-006adecc-9af2-46b3-86ab-3b0447ae1ab5.JPG)
+## The construction of Administrator system
+When it comes to the construction of my system, I make some simplications on my design.
+
+The Administrator system can be devided into three parts: the patient part, the doctor part and the administor part.
+### Patient part
+This part deal with the following request: 
+* patients are able to login.
+* patients are able to regist.
+* patient are able to make an appointment.
+
+## Login
+![patientlogin](https://user-images.githubusercontent.com/78243340/158717469-e99f2425-f2e2-4727-9dc7-1d6084b26e0e.JPG)
+We maintain a database to save information of patients. When a user wants to login as patient, this api will check if he or she is in the database.
+![loginfail](https://user-images.githubusercontent.com/78243340/158717870-9f6c5eb6-dc6c-4330-9e1c-9397af805fa1.JPG)
+
+## Regist
+A user can add their information into the database by go to the regist page.
+![regist](https://user-images.githubusercontent.com/78243340/158718041-c06e23f9-efdd-4e6d-879b-8c4ae4a8b98b.JPG)
+He or she can either regist as patient or regist as relatives.
+![resgistform](https://user-images.githubusercontent.com/78243340/158718701-e90b3a0f-69ea-41ec-a0a9-b48d270ff36b.JPG)
+When finish registration, one's information will be add to patient form
+![patient form](https://user-images.githubusercontent.com/78243340/158718735-e4f54b25-db20-4053-b95d-2d0f3eed1bfa.JPG)
+
+
+
 
