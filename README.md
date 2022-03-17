@@ -155,6 +155,12 @@ He or she can either regist as patient or regist as relatives.
 When finish registration, one's information will be add to patient form
 ![patient form](https://user-images.githubusercontent.com/78243340/158718735-e4f54b25-db20-4053-b95d-2d0f3eed1bfa.JPG)
 
+## Make appointment
+A user can make appointment, they can view all the doctors in the system, and how many patient are availiable for each doctor.
+![appointmentform](https://user-images.githubusercontent.com/78243340/158720989-ccdd46bd-9b73-4cd4-901f-a5f08397ae17.JPG)
+Patient can view his or her appointments in appointment date page
+![appointmentdate](https://user-images.githubusercontent.com/78243340/158723588-95a98666-db72-4500-8d65-1ffe8e3e12f7.JPG)
+
 
 
 
